@@ -1,0 +1,125 @@
+[debug] [2023-12-14T11:05:48.646Z] : 
+[debug] [2023-12-14T11:05:48.648Z] : ----------------------------------------------------------------------
+[debug] [2023-12-14T11:05:48.648Z] : Command:      C:\Program Files\nodejs\node.exe C:\Users\selva\AppData\Roaming\npm\node_modules\zcatalyst-cli\lib\bin\catalyst.js serve
+[debug] [2023-12-14T11:05:48.648Z] : CLI Version:  1.16.2
+[debug] [2023-12-14T11:05:48.649Z] : Platform:     win32
+[debug] [2023-12-14T11:05:48.649Z] : Node Version: v18.15.0
+[debug] [2023-12-14T11:05:48.656Z] : Time:         Thu Dec 14 2023 16:35:48 GMT+0530 (India Standard Time)
+[debug] [2023-12-14T11:05:48.656Z] : ----------------------------------------------------------------------
+[debug] [2023-12-14T11:05:48.657Z] : 
+[debug] [2023-12-14T11:05:49.861Z] : > authorizing via signed-in user option
+[debug] [2023-12-14T11:05:49.861Z] : > command requires scopes: ["ZohoCatalyst.projects.ALL","ZohoCatalyst.functions.ALL","ZohoCatalyst.functions.EXECUTE","ZohoCatalyst.webapp.ALL","ZohoCatalyst.pdfshot.execute"]
+[debug] [2023-12-14T11:05:49.874Z] : >>>> HTTP REQUEST : GET https://api.catalyst.zoho.in/baas/v1/project/4888000000006001 
+
+[debug] [2023-12-14T11:05:50.224Z] : <<<< HTTP RESPONSE : 200
+Response Headers: {"server":"ZGS","date":"Thu, 14 Dec 2023 11:05:53 GMT","content-type":"application/vnd.catalyst.v2+json","transfer-encoding":"chunked","connection":"close","set-cookie":["3a750b85f1=99131cfabfda186b4fe68a16fb8fedd6; Path=/","ZD_CSRF_TOKEN=5cae1eee-d603-45e9-bdee-cca5e97d99cb;path=/;SameSite=None;Secure;priority=high","_zcsr_tmp=5cae1eee-d603-45e9-bdee-cca5e97d99cb;path=/;SameSite=Strict;Secure;priority=high"],"x-content-type-options":"nosniff","x-xss-protection":"1","cache-control":"private,no-cache,no-store,max-age=0,must-revalidate","pragma":"no-cache","expires":"Thu, 01 Jan 1970 00:00:00 GMT","x-frame-options":"DENY","strict-transport-security":"max-age=63072000"}
+
+[debug] [2023-12-14T11:05:50.234Z] : >>>> HTTP REQUEST : GET https://api.catalyst.zoho.in/baas/v1/project/4888000000006001/environment 
+
+[debug] [2023-12-14T11:05:50.428Z] : <<<< HTTP RESPONSE : 200
+Response Headers: {"server":"ZGS","date":"Thu, 14 Dec 2023 11:05:53 GMT","content-type":"application/vnd.catalyst.v2+json","transfer-encoding":"chunked","connection":"close","set-cookie":["3a750b85f1=99131cfabfda186b4fe68a16fb8fedd6; Path=/","ZD_CSRF_TOKEN=044852d1-3432-4a1f-b305-a04750580210;path=/;SameSite=None;Secure;priority=high","_zcsr_tmp=044852d1-3432-4a1f-b305-a04750580210;path=/;SameSite=Strict;Secure;priority=high"],"x-content-type-options":"nosniff","x-xss-protection":"1","cache-control":"private,no-cache,no-store,max-age=0,must-revalidate","pragma":"no-cache","expires":"Thu, 01 Jan 1970 00:00:00 GMT","x-frame-options":"DENY","strict-transport-security":"max-age=63072000"}
+
+[debug] [2023-12-14T11:05:50.813Z] : http port : '3000' is not available. Hence port '3001' will be used instead.
+[debug] [2023-12-14T11:05:51.002Z] : No basic functions to add
+[info] [2023-12-14T11:05:54.644Z] : [react-plugin]: Starting the development server...
+
+[info] [2023-12-14T11:05:54.646Z] : 
+[info] [2023-12-14T11:05:54.647Z] : i Client[project1]: Plugin : "zcatalyst-cli-plugin-react" is used for client serve
+[info] [2023-12-14T11:05:54.647Z] : 
+[info] [2023-12-14T11:05:57.171Z] : 
+[info] [2023-12-14T11:05:57.172Z] :  >>>>>>>>>>>>> Web Client <<<<<<<<<<<<
+[info] [2023-12-14T11:05:57.172Z] : i client[project1]: http://localhost:3001/app/
+[info] [2023-12-14T11:05:57.173Z] : 
+[info] [2023-12-14T11:06:02.435Z] : [react-plugin]: Compiled with warnings.
+
+[info] [2023-12-14T11:06:02.435Z] : [react-plugin]: [eslint] 
+src\App.js
+  Line 3:27:  'Router' is defined but never used          no-unused-vars
+  Line 3:35:  'Route' is defined but never used           no-unused-vars
+  Line 4:8:   'Navbar' is defined but never used          no-unused-vars
+  Line 5:8:   'CRMLeadManager' is defined but never used  no-unused-vars
+[info] [2023-12-14T11:06:02.435Z] : [react-plugin]: 
+Search for the keywords to learn more about each warning.
+[info] [2023-12-14T11:06:02.436Z] : [react-plugin]: To ignore, add // eslint-disable-next-line to the line before.
+
+[debug] [2023-12-15T05:38:38.423Z] : 
+[debug] [2023-12-15T05:38:38.425Z] : ----------------------------------------------------------------------
+[debug] [2023-12-15T05:38:38.425Z] : Command:      C:\Program Files\nodejs\node.exe C:\Users\selva\AppData\Roaming\npm\node_modules\zcatalyst-cli\lib\bin\catalyst.js serve
+[debug] [2023-12-15T05:38:38.426Z] : CLI Version:  1.16.2
+[debug] [2023-12-15T05:38:38.427Z] : Platform:     win32
+[debug] [2023-12-15T05:38:38.428Z] : Node Version: v18.15.0
+[debug] [2023-12-15T05:38:38.430Z] : Time:         Fri Dec 15 2023 11:08:38 GMT+0530 (India Standard Time)
+[debug] [2023-12-15T05:38:38.431Z] : ----------------------------------------------------------------------
+[debug] [2023-12-15T05:38:38.431Z] : 
+[debug] [2023-12-15T05:38:40.428Z] : > authorizing via signed-in user option
+[debug] [2023-12-15T05:38:40.429Z] : > command requires scopes: ["ZohoCatalyst.projects.ALL","ZohoCatalyst.functions.ALL","ZohoCatalyst.functions.EXECUTE","ZohoCatalyst.webapp.ALL","ZohoCatalyst.pdfshot.execute"]
+[debug] [2023-12-15T05:38:40.448Z] : > refreshing access token <
+[debug] [2023-12-15T05:38:40.450Z] : >>>> HTTP REQUEST : POST https://accounts.zoho.in/oauth/v2/token 
+<request body omitted>
+
+[debug] [2023-12-15T05:38:40.878Z] : <<<< HTTP RESPONSE : 200
+Response Headers: {"server":"ZGS","date":"Fri, 15 Dec 2023 05:38:44 GMT","content-type":"application/json;charset=UTF-8","content-length":"1944","connection":"close","set-cookie":["6e73717622=3bcf233c3836eb7934b6f3edc257f951; Path=/","iamcsr=c5bbd695-1ee9-4960-bf49-ad54f83cd9dc;path=/;SameSite=None;Secure;priority=high","_zcsr_tmp=c5bbd695-1ee9-4960-bf49-ad54f83cd9dc;path=/;SameSite=Strict;Secure;priority=high"],"cache-control":"no-store","x-content-type-options":"nosniff","pragma":"no-cache","x-xss-protection":"1","x-frame-options":"SAMEORIGIN","vary":"accept-encoding","content-language":"en-US","strict-transport-security":"max-age=63072000"}
+
+[debug] [2023-12-15T05:38:40.908Z] : >>>> HTTP REQUEST : GET https://api.catalyst.zoho.in/baas/v1/project/4888000000006001 
+
+[debug] [2023-12-15T05:38:41.319Z] : <<<< HTTP RESPONSE : 200
+Response Headers: {"server":"ZGS","date":"Fri, 15 Dec 2023 05:38:44 GMT","content-type":"application/vnd.catalyst.v2+json","transfer-encoding":"chunked","connection":"close","set-cookie":["3a750b85f1=99131cfabfda186b4fe68a16fb8fedd6; Path=/","ZD_CSRF_TOKEN=9062a244-2127-4ccc-9c70-48c42f72f65d;path=/;SameSite=None;Secure;priority=high","_zcsr_tmp=9062a244-2127-4ccc-9c70-48c42f72f65d;path=/;SameSite=Strict;Secure;priority=high"],"x-content-type-options":"nosniff","x-xss-protection":"1","cache-control":"private,no-cache,no-store,max-age=0,must-revalidate","pragma":"no-cache","expires":"Thu, 01 Jan 1970 00:00:00 GMT","x-frame-options":"DENY","strict-transport-security":"max-age=63072000"}
+
+[debug] [2023-12-15T05:38:41.324Z] : >>>> HTTP REQUEST : GET https://api.catalyst.zoho.in/baas/v1/project/4888000000006001/environment 
+
+[debug] [2023-12-15T05:38:41.579Z] : <<<< HTTP RESPONSE : 200
+Response Headers: {"server":"ZGS","date":"Fri, 15 Dec 2023 05:38:44 GMT","content-type":"application/vnd.catalyst.v2+json","transfer-encoding":"chunked","connection":"close","set-cookie":["3a750b85f1=99131cfabfda186b4fe68a16fb8fedd6; Path=/","ZD_CSRF_TOKEN=774f2fc3-413c-4d7d-b9c4-ab1eddc8cb22;path=/;SameSite=None;Secure;priority=high","_zcsr_tmp=774f2fc3-413c-4d7d-b9c4-ab1eddc8cb22;path=/;SameSite=Strict;Secure;priority=high"],"x-content-type-options":"nosniff","x-xss-protection":"1","cache-control":"private,no-cache,no-store,max-age=0,must-revalidate","pragma":"no-cache","expires":"Thu, 01 Jan 1970 00:00:00 GMT","x-frame-options":"DENY","strict-transport-security":"max-age=63072000"}
+
+[debug] [2023-12-15T05:38:42.335Z] : No basic functions to add
+[info] [2023-12-15T05:38:45.653Z] : [react-plugin]: Starting the development server...
+
+[info] [2023-12-15T05:38:45.655Z] : 
+[info] [2023-12-15T05:38:45.656Z] : i Client[project1]: Plugin : "zcatalyst-cli-plugin-react" is used for client serve
+[info] [2023-12-15T05:38:45.656Z] : 
+[info] [2023-12-15T05:38:48.318Z] : 
+[info] [2023-12-15T05:38:48.318Z] :  >>>>>>>>>>>>> Web Client <<<<<<<<<<<<
+[info] [2023-12-15T05:38:48.318Z] : i client[project1]: http://localhost:3000/app/
+[info] [2023-12-15T05:38:48.319Z] : 
+[info] [2023-12-15T05:38:49.675Z] : [react-plugin]: Compiled successfully!
+[info] [2023-12-15T05:38:49.676Z] : [react-plugin]: 
+[info] [2023-12-15T05:38:49.676Z] : [react-plugin]: You can now view project1 in the browser.
+[info] [2023-12-15T05:38:49.678Z] : [react-plugin]: 
+[info] [2023-12-15T05:38:49.679Z] : [react-plugin]:   Local:            http://localhost:3000/app/
+[info] [2023-12-15T05:38:49.680Z] : [react-plugin]:   On Your Network:  http://192.168.43.18:3000/app/
+[info] [2023-12-15T05:38:49.680Z] : [react-plugin]: 
+[info] [2023-12-15T05:38:49.680Z] : [react-plugin]: Note that the development build is not optimized.
+[info] [2023-12-15T05:38:49.682Z] : [react-plugin]: To create a production build, use npm run build.
+[info] [2023-12-15T05:38:49.682Z] : [react-plugin]: 
+[info] [2023-12-15T05:40:56.479Z] : [react-plugin]: Compiling...
+[info] [2023-12-15T05:40:57.075Z] : [react-plugin]: Compiled successfully!
+[info] [2023-12-15T05:40:57.076Z] : [react-plugin]: 
+[info] [2023-12-15T05:40:57.076Z] : [react-plugin]: You can now view project1 in the browser.
+[info] [2023-12-15T05:40:57.076Z] : [react-plugin]: 
+[info] [2023-12-15T05:40:57.076Z] : [react-plugin]:   Local:            http://localhost:3000/app/
+[info] [2023-12-15T05:40:57.076Z] : [react-plugin]:   On Your Network:  http://192.168.43.18:3000/app/
+[info] [2023-12-15T05:40:57.077Z] : [react-plugin]: 
+[info] [2023-12-15T05:40:57.077Z] : [react-plugin]: Note that the development build is not optimized.
+[info] [2023-12-15T05:40:57.077Z] : [react-plugin]: To create a production build, use npm run build.
+[info] [2023-12-15T05:40:57.077Z] : [react-plugin]: 
+[info] [2023-12-15T05:40:58.866Z] : [react-plugin]: Compiling...
+[info] [2023-12-15T05:40:59.215Z] : [react-plugin]: Compiled successfully!
+[info] [2023-12-15T05:40:59.215Z] : [react-plugin]: 
+[info] [2023-12-15T05:40:59.215Z] : [react-plugin]: You can now view project1 in the browser.
+[info] [2023-12-15T05:40:59.216Z] : [react-plugin]: 
+[info] [2023-12-15T05:40:59.216Z] : [react-plugin]:   Local:            http://localhost:3000/app/
+[info] [2023-12-15T05:40:59.216Z] : [react-plugin]:   On Your Network:  http://192.168.43.18:3000/app/
+[info] [2023-12-15T05:40:59.217Z] : [react-plugin]: 
+[info] [2023-12-15T05:40:59.217Z] : [react-plugin]: Note that the development build is not optimized.
+[info] [2023-12-15T05:40:59.217Z] : [react-plugin]: To create a production build, use npm run build.
+[info] [2023-12-15T05:40:59.218Z] : [react-plugin]: 
+[info] [2023-12-15T05:41:05.665Z] : [react-plugin]: Compiling...
+[info] [2023-12-15T05:41:05.920Z] : [react-plugin]: Compiled successfully!
+[info] [2023-12-15T05:41:05.921Z] : [react-plugin]: 
+[info] [2023-12-15T05:41:05.921Z] : [react-plugin]: You can now view project1 in the browser.
+[info] [2023-12-15T05:41:05.921Z] : [react-plugin]: 
+[info] [2023-12-15T05:41:05.921Z] : [react-plugin]:   Local:            http://localhost:3000/app/
+[info] [2023-12-15T05:41:05.922Z] : [react-plugin]:   On Your Network:  http://192.168.43.18:3000/app/
+[info] [2023-12-15T05:41:05.922Z] : [react-plugin]: 
+[info] [2023-12-15T05:41:05.922Z] : [react-plugin]: Note that the development build is not optimized.
+[info] [2023-12-15T05:41:05.922Z] : [react-plugin]: To create a production build, use npm run build.
+[info] [2023-12-15T05:41:05.923Z] : [react-plugin]: 

@@ -1,0 +1,86 @@
+.zohostatus{
+    position: relative;
+    top: 42px;
+    border-radius: 8px;
+    right: 80px;
+}
+
+.easyecom-status{
+    position: relative;
+    top: 48px;
+    right: 80px;
+    border-radius: 8px;
+  
+   
+}
+
+body{
+  background-color: rgb(246, 247, 251);
+}
+.main{
+  background-color: rgb(246, 247, 251);
+}
+
+
+@media screen and (min-width:300px) and (max-width:325px){
+
+.zohostatus{
+  position: relative;
+  top: 350px;
+  left: -30px;
+  
+}
+
+.easyecom-status{
+position: relative;
+top: 350px;
+left: -30px;
+ 
+}
+
+}
+
+@media screen and (min-width:325px) and (max-width: 800px) {
+  .res {
+   margin-right: 80px;
+    
+}
+.zohostatus{
+  position: relative;
+  top: 90px;
+  left: -25px;
+  
+}
+
+.easyecom-status{
+position: relative;
+top: 100px;
+left: -25px;
+ 
+}
+
+}   
+
+@media screen and (min-width:763px) and (max-width:800px){
+
+.des{
+  position: relative;
+  left: 20px;
+}
+  
+  }
+
+  @media screen and (min-width:800px) and (max-width:1040px){
+
+    .des{
+      position: relative;
+      left: 20px;
+     
+    }
+    .res{
+      margin-right: 20px;
+    }
+      
+      }
+
+
